@@ -61,4 +61,4 @@ profile*
 .env
 
 # others
-*.db
+prisma/*.db
