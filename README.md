@@ -4,11 +4,19 @@
 
 To install the dependencies
 
+### `npx prisma generate`
+
+To create the database
+
 ### `npm run dev`
 
 To start the app in dev mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
-Open [http://localhost:3000/swagger](http://localhost:3000/swagger) to view the swagger ui.
+Open [http://localhost:3000/swagger](http://localhost:3000/swagger) to view the swagger ui. <Currently, it's is not working>
+
+### `open http-client.http` in the IntelliJ IDEA and play the rest urls
+
+To play around rest urls
 
 ### `npm start`
 
