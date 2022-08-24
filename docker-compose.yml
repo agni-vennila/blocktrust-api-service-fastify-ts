@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  postgresql_database:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgrespw
+      - POSTGRES_DB=postgres
+    ports:
+      - "5432:5432"
+    restart: no
+    volumes:
+      - db-data:/var/lib/postgresql/data/
+volumes:
+  db-data:
